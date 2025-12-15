@@ -1,2 +1,3 @@
 ﻿  source.c
+C:\Users\young\OneDrive\바탕 화면\Game_Program\Program\source.c(23,19): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
   Program.vcxproj -> C:\Users\young\OneDrive\바탕 화면\Game_Program\Program\Debug\Program.exe
