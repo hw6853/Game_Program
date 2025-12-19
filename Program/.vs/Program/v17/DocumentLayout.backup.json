@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{285110B5-1C4B-446F-A5D9-37979AB04A33}|Program.vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{285110B5-1C4B-446F-A5D9-37979AB04A33}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAFF48A1-0BF9-451E-83F3-4B4C194DF6EA}|..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class5th (Conditional Statement)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24D7A802-1DA5-4B72-8448-79358D5A7450}|..\\Class4th (Overflow \u0026 Underflow)\\Class4th (Overflow \u0026 Underflow).vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class4th (Overflow \u0026 Underflow)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE32A1EB-551E-4AEA-BB2F-59307BD23D3F}|..\\Class3th (Bit)\\Class3th (Bit).vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class3th (Bit)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B3C4EC1-1AEA-4D06-9B04-90D4F813F2DF}|..\\Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class2th (Variable \u0026 Constant)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,61 +24,11 @@
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Program\\source.c*",
               "RelativeToolTip": "source.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-12T12:03:42.425Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class4th (Overflow \u0026 Underflow)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class4th (Overflow \u0026 Underflow)\\source.c",
-              "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class4th (Overflow \u0026 Underflow)\\source.c",
-              "RelativeToolTip": "..\\Class4th (Overflow \u0026 Underflow)\\source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-17T11:10:43.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class5th (Conditional Statement)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\source.c",
-              "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class5th (Conditional Statement)\\source.c",
-              "RelativeToolTip": "..\\Class5th (Conditional Statement)\\source.c",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAswM8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-18T11:16:40.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class3th (Bit)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class3th (Bit)\\source.c",
-              "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class3th (Bit)\\source.c",
-              "RelativeToolTip": "..\\Class3th (Bit)\\source.c",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAswJsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-15T12:13:44.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class2th (Variable \u0026 Constant)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\source.c",
-              "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class2th (Variable \u0026 Constant)\\source.c",
-              "RelativeToolTip": "..\\Class2th (Variable \u0026 Constant)\\source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-12T12:03:28.143Z"
             }
           ]
         }
