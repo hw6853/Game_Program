@@ -1,80 +1,38 @@
 #include <stdio.h>
 
-#define SIZE 5
-
 void main()
 {
-#pragma region 자료형 변환
-	// 서로 다른 자료형을 가지고 있는 변수끼리 연산이
-	// 이루어질 때 기존에 지정했던 자료형을 다른 자료형
-	// 으로 변환하는 과정입니다.
+#pragma region 배열
+	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
 
-#pragma region 암묵적 형 변환
-	// 서로 다른 자료형으로 연산이 이루어질 때 자료형의
-	// 크기가 더 큰 자료형으로 변환되는 과정입니다.
+	//int list[5];
 
-	//int a = 10;
-	//float b = 3.5f;
-
-	//	printf("a + b = %.1f\n", a + b);
-
-	// 표현 범위가 작은 데이터에 표현 범위가 큰 데이터를
-	// 저장하게 되면 암묵적으로 데이터 손실이 발생합니다.
-#pragma endregion
-
-#pragma region 명시적 형 변환
-	// 연산이 이루어지기 전에 사용자가 직접 자료형을
-	// 변환하는 과정입니다.
-
-	//int critical = 10;
-	//int penetration = 3;
-
-	//float attack = (float)critical / penetration;
-
-	//printf("attack : %.0f", attack);
-
-	// 정수형 변수끼리 연산을 수행하게 되면 정수의 결과
-	// 값만 가질 수 있습니다.
-#pragma endregion
-
-#pragma region 단축 평가 계산
-	// 계산을 진행하는 도중에 결과가 이미 확정된 경우,
-	// 나머지 계산을 생략하는 과정입니다.
-
-	//int x = 0;
-	//int y = 0;
-
-	//if (x != 0 && y++)
+	//// 배열의 경우 첫 번째 원소는 0부터 시작합니다.
+	//
+	//for (int i = 0; i < 5; i++)
 	//{
-	//	printf("short sircuit");
+	//	list[i] = (i + 1) * 10;
+
+	//	printf("list[%d] : %d\n", i, list[i]);
 	//}
 
-	//if (x == 0 || y++)
-	//{
-	//	printf("first OR operation\n");
-	//}
+	// 배열의 메모리 공간은 프로그램이 실행되는 동안
+	// 변경할 수 없습니다.
 
-	//if (x != 0 || y++)
-	//{
-	//	printf("second OR operation\n");
-	//}
-	//printf("y의 값 : %d\n", y);
+	int array[] = { 1, 2, 3, 4, 5 };
 
-#pragma endregion
+	int size = sizeof(array) / sizeof(array[0]);
 
-#pragma region 매크로
-	// 프로그램 내에서 특정한 데이터가 문자열로 정의되고
-	// 처리되는 과정입니다.
+	for (int i = 0; i < size; i++)
+	{
+		printf("array[%d]의 값 : %d\n", i, array[i]);
+	}
 
-	// printf("매크로 SIZE의 값 : %d", SIZE);
+	// 배열의 크기는 생략할 수 있으며, 초기화 목록에서
+	// 설정한 요소에 따라 배열의 크기가 결정됩니다.
 
-	// 매크로의 경우 자료형이 존재하지 않으므로 메모리 공간을
-	// 가지고 있지 않습니다.
 
-	// ex) SIZE = 100;
-
-	// 매크로의 과정은 컴파일 이전에 실행되며, 각 매크로가 실행될 때
-	// 매크로의 대체 목록을 넣어야 하므로 프로그램의 크기가 커지게 됩니다.
+	
 #pragma endregion
 
 }
