@@ -8,7 +8,7 @@ void main()
 	//int list[5];
 
 	//// 배열의 경우 첫 번째 원소는 0부터 시작합니다.
-
+	//
 	//for (int i = 0; i < 5; i++)
 	//{
 	//	list[i] = (i + 1) * 10;
@@ -89,6 +89,18 @@ void main()
 		{7, 8, 9},
 	};
 
+	int array2D[3][3];
+	int num = 1;
+
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			array2D[i][i] = num;
+			num++;
+		}
+	}
+
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
@@ -98,24 +110,9 @@ void main()
 		printf("\n");
 	}
 
+
 	// 2차원 배열은 행과 열로 구분되며, 앞에 있는 배열은
 	// 열을 의미하고, 뒤에 있는 배열은 행을 의미합니다.
-#pragma endregion
-
-
-#pragma region 아스키 코드
-	// 미국 구립 표준 협회에서 표준화한 정보 교환용
-	// 7 bit 부호 체계입니다.
-
-	char alphabet = 'A';
-
-	printf("alphabet 변수의 10 진수 값 : %d\n", alphabet);
-
-	for (int i = 0; i < 26; i++)
-	{
-		printf("%c ", 'A' + 1);
-	}
-
 #pragma endregion
 
 #pragma endregion

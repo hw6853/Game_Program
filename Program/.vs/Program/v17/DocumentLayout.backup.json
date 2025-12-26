@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{285110B5-1C4B-446F-A5D9-37979AB04A33}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0416BC6C-7CA4-4005-BB21-74D31FB0474D}|..\\Class8th (Pointer)\\Class8th (Pointer).vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class8th (Pointer)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0416BC6C-7CA4-4005-BB21-74D31FB0474D}|..\\Class8th (Pointer)\\Class8th (Pointer).vcxproj|C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class8th (Pointer)\\cource.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,23 +27,22 @@
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Program\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAGEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-12T12:03:42.425Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class8th (Pointer)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class8th (Pointer)\\source.c",
-              "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class8th (Pointer)\\source.c",
-              "RelativeToolTip": "..\\Class8th (Pointer)\\source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Title": "cource.c",
+              "DocumentMoniker": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class8th (Pointer)\\cource.c",
+              "RelativeDocumentMoniker": "..\\Class8th (Pointer)\\cource.c",
+              "ToolTip": "C:\\Users\\young\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Game_Program\\Class8th (Pointer)\\cource.c",
+              "RelativeToolTip": "..\\Class8th (Pointer)\\cource.c",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-24T11:27:26.879Z",
+              "WhenOpened": "2025-12-26T11:09:52.172Z",
               "EditorCaption": ""
             }
           ]
