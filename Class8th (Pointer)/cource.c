@@ -2,119 +2,169 @@
 
 void main()
 {
-#pragma region 배열
-	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
+#pragma region 주소 연산자
+	// 변수의 주소 값을 반환하는 연산자입니다.
 
-	//int list[5];
+	// int data = 10;
+	// 
+	// printf("data 변수의 주소 : %p", &data);
 
-	//// 배열의 경우 첫 번째 원소는 0부터 시작합니다.
-	//
-	//for (int i = 0; i < 5; i++)
-	//{
-	//	list[i] = (i + 1) * 10;
+	// 데이터의 주소는 해당 데이터가 저장된 메모리의 시작 주소를
+	// 의미하며, 메모리의 공간은 1 byte의 크기로 나누어 표현합니다.
+#pragma endregion
 
-	//	printf("list[%d] : %d\n", i, list[i]);
-	//}
+#pragma region 표준 입력 함수
+	// 여러 종류의 데이터를 다양한 서식에 맞추어
+	// 입력해주는 함수입니다.
 
-	// 배열의 메모리 공간은 프로그램이 실행되는 동안
+	// int x = 0;
+	// 
+	// // 표준 입력 함수는 입력을 수행할 때까지 다음 작업으로
+	// // 넘어갈 수 없습니다.
+	// 
+	// printf("x 변수의 값을 입력 : ");
+	// 
+	// scanf_s("%d", &x);
+	// 
+	// // 버퍼는 데이터가 이동할 때 임시로 저장되는 공간이며,
+	// // 서식 지정자에 따라 입력할 수 있는 데이터의 범위도 결정됩니다.
+	// 
+	// printf("x의 값 : %d\n", x);
+
+	// 표준 입력 함수로 데이터를 입력하게 되면 버퍼에 데이터를 보관
+	// 하였다가 입력하는 순간 버퍼 안의 내용을 프로그램에 전송합니다.
+#pragma endregion
+
+#pragma region 포인터
+	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
+
+	// int storage = 10;
+	// 
+	// int room = 20;
+	// 
+	// int * pointer = &storage;
+	// 
+	// // 포인터가 가리키는 메모리 공간의 자료형은 알 수 없으므로,
+	// // 포인터가 가리키는 메모리의 자료형을 선언해주어야 합니다.
+	// 
+	// printf("storage의 주소 : %p\n", &storage);
+	// printf("pointer의 값 : %p\n", pointer);
+	// printf("pointer의 주소 : %p\n\n", &pointer);
+	// 
+	// *pointer = 99;
+	// 
+	// printf("storage의 값 : %d\n", storage);
+	// printf("pointer변수가 가리키는 값 : %d\n\n", *pointer);
+	// 
+	// pointer = &room;
+	// 
+	// printf("pointer의 값 : %p\n", pointer);
+	// printf("pointer변수가 가리키는 값 : %d\n\n", *pointer);
+	// 
+	// // 포인터 변수도 자신의 메모리 공간을 가지고 있으며, 포인터 변수에
+	// // 변수의 주소를 저장하게 되면 해당 변수의 시작 주소를 가리킵니다.
+	// 
+	// printf("int의 크기 : %u\n\n", sizeof(int));
+	// 
+	// printf("pointer 변수의 크기 : %u\n", sizeof(pointer));
+
+	// 포인터 변수의 크기는 중앙 처리 장치가 한 번에 처리할 수 있는
+	// 크기로 정해지며, 한 번에 처리할 수 있는 크기는 운영체제에 따라 크기가 결정됩니다.
+#pragma endregion
+
+#pragma region 범용 포인터
+	// 자료형이 정해지지 않은 상태로 모든 자료형을
+	// 저장할 수 있는 포인터입니다.
+
+	// char rank = 'A';
+	// int count = 10;
+	// float angle = 35.75f;
+	// 
+	// void * reference = NULL;
+	// 
+	// reference = &rank;
+
+	// 범용 포인터는 메모리 주소에 접근해서 값을
 	// 변경할 수 없습니다.
 
-	//int array[] = { 1, 2, 3, 4, 5 };
+	// *(char*)reference = 'B';
+	// 
+	// printf("rank 변수의 값 : %c\n", rank);
+	// printf("reference 변수의 값 : %p\n\n", reference);
+	// 
+	// reference = &count;
+	// 
+	// *(int*)reference = 50;
+	// 
+	// printf("count 변수의 값 : %d\n", count);
+	// printf("reference 변수의 값 : %p\n\n", reference);
+	// 
+	// reference = &angle;
+	// 
+	// *(float*)reference = 8.125f;
+	// 
+	// printf("angle 변수의 값 : %f\n", angle);
+	// printf("reference 변수의 값 : %p\n\n", reference);
 
-	//int size = sizeof(array) / sizeof(array[0]);
-
-	//int* pointer = &array;
-
-	//for (int i = 0; i < size; i++)
-	//{
-	//	printf("array[%d]의 값 : %d\n", i, array[i]);
-	//}
-
-	//// 배열의 크기는 생략할 수 있으며, 초기화 목록에서
-	//// 설정한 요소에 따라 배열의 크기가 결정됩니다.
-
-	//printf("배열의 시작 주소 : %p\n", array);
-
-	//pointer = pointer + 1;
-
-	//*pointer = 22;
-
-	//printf("pointer 변수의 값 : %p\n", pointer);
-	//printf("array[1]의 값 : %d\n", array[1]);
-
-	// 배열의 연속적인 메모리 공간을 가지며. 배열의 이름은
-	// 배열의 시작 주소를 가리킵니다.
-
-#pragma region 문자열
-// 연속적인 메모리 공간에 저장된 문자 변수의
-// 집합입니다.
-
-	//const char* character = "character";
-
-	//char message[] = "message";
-
-	//printf("character가 가리키는 문자열 : %s", character);
-
-	//message[1] = 'a';
-
-	//printf("message가 가리키는 문자열 : %s\n", message);
-
-	//// 문자열의 경우 포인터를 이용하여 문자열 상수를 가리키도록 할
-	//// 수 있으며, 문자열 상수는 데이터 영역의 읽기 전용 공간에 저장
-	//// 되기 때문에 문자열의 값을 변경할 수 없습니다.
-
-	//character = "exercise";
-
-	//printf("character가 가리키는 문자열 : %s\n", character);
-
-	//// 문자열은 공백도 함께 메모리 공간에 포함하여 크기가 결정되며,
-	//// 마지막에 문자열의 끝을 알려주는 제어 문자가 추가됩니다.
-
-	//character = "show\0er";
-
-	//printf("character가 가리키는 문자열 : %s\n", character);
-
-	//// 문자열의 경우 서로 연속적인 메모리 공간으로 연결되어 있지만,
-	//// 문자 배열 사이에 무효의 문자를 넣게 되면 무효의 문자까지만 출력됩니다.
-
+	// 범용 포인터로 변수의 메모리에 접근하려면 범용 포인터가
+	// 가리키는 변수의 자료형으로 변환해주어야 합니다.
 #pragma endregion
 
-#pragma region (2)차원 배열
-	// 배열의 요소로 또 다른 배열을 가지는 배열입니다.
+#pragma region 상수 지시 포인터
+// 포인터가 가리키는 주소에 저장되어 있는 값을 변경할 수 없도록
+// 지정되어 있는 포인터입니다.
 
-	int array2D[3][3] =
-	{
-		{1, 2, 3},
-		{4, 5, 6},
-		{7, 8, 9},
-	};
-
-	int array2D[3][3];
-	int num = 1;
-
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 3; j++)
-		{
-			array2D[i][i] = num;
-			num++;
-		}
-	}
-
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 3; j++)
-		{
-			printf("%d ", array2D[i][j]);
-		}
-		printf("\n");
-	}
-
-
-	// 2차원 배열은 행과 열로 구분되며, 앞에 있는 배열은
-	// 열을 의미하고, 뒤에 있는 배열은 행을 의미합니다.
+// int y = 10;
+// int z = 20;
+// 
+// const int * fixedPointer = &y;
+// 
+// // *fixedPointer = 99;
+// 
+// printf("y의 주소 값 : %p\n", &y);
+// printf("fixedPointer의 값 : %p\n\n", fixedPointer);
+// 
+// fixedPointer = &z;
+// 
+// printf("z의 주소 값 : %p\n", &z);
+// printf("fixedPointer의 값 : %p\n\n", fixedPointer);
 #pragma endregion
 
+#pragma region 포인터 상수
+// 포인터 변수가 가리키고 있는 주소 값을 변경할 수 
+// 없는 포인터입니다.
+
+// int protein = 10;
+// int fat = 20;
+// 
+// int * const fixedReference = &protein;
+// 
+// *fixedReference = 99;
+// 
+// printf("fixedReference가 가리키는 값 : %d\n", *fixedReference);
+// printf("protein 변수의 값 : %d\n", protein);
+
+// fixedReference = &fat;
+
+// 상수로 선언한 포언티는 해당 변수의 값을 변경할 수 있지만, 다른 변수의
+// 주소를 새로 저장할 수는 없습니다.
+#pragma endregion
+
+#pragma region 허상 포인터
+	// 이미 해제된 메모리 영역을 가리키는 포인터입니다.
+
+//int* address = NULL;
+//
+//{
+//	int packet = 0;
+//
+//	address = &packet;
+//
+//	*address = 30;
+//
+//	printf("address가 가리키고 있는 값 : %d\n", *address);
+//}
+//printf("address가 가리키고 있는 값 : %d\n", *address);
 #pragma endregion
 
 }
